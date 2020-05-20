@@ -386,7 +386,8 @@ header{
     /*first quarter mobile*/
 
     .first-q {
-        width: 39.4%;;
+        width: 39%;
+        clear: both;
     }
 
     .first-q img{
@@ -423,6 +424,55 @@ header{
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+
+    /*Second quarter mobile*/
+
+    .hurtl, .hurtr{
+        display: none;
+    }
+
+    .hrmobile {
+        width: 39%;
+        float: left;
+        clear: both;
+        margin: 0;
+    }
+
+    .hrmobile img{
+        width: 100%;
+        padding: 2rem;
+        box-sizing: border-box;
+        margin-top: 8rem;
+    }
+
+    .morient img{
+        margin-top: 2rem;
+    }
+
+    .hrmobile h3{
+        font-size: 4rem;
+        float: left;
+        margin: 2rem 3rem 2rem 4rem;
+        clear: both;
+        font-weight: 400;
+    }
+    
+    .hrmobile h4, .hrmobile h5{
+        font-size: 2rem;
+        float: left;
+        margin: 1rem 3rem 1.5rem 4rem;
+        clear: both;
+        font-weight: 300;
+    }
+
+    .hrmobile h5{
+        color: rgb(91, 153, 247);
+    }
+
+    .mguest h5{
+        margin-bottom: 3rem;
+    }
+
 }
 
 @media only screen and (min-width: 505px){
