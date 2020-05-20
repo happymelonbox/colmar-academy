@@ -359,13 +359,11 @@ header{
 
 /*Mobile*/
 
-@media only screen and (max-width: 63rem){
+@media only screen and (max-width: 505px){
 
-    .body{
-        max-width:63rem;
-
+    .html{
+        width: 505px;
     }
-    
     /*header mobile*/
 
     .header {
@@ -373,23 +371,26 @@ header{
     }
 
     #hmobile{
-        width:63rem;
+        width:100%;
+        height: 8rem;
     }
 
     #hmobile img{
         width: 24%;
-        height: 8rem;
+        height: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
     }
     
     /*first quarter mobile*/
 
     .first-q {
-        width:63rem;;
+        width: 39.4%;;
     }
 
     .first-q img{
-        max-width: 101%;
-        width: 63rem;
+        width: 100%;
         height: 40rem;
         margin: 0;
     }
@@ -424,7 +425,7 @@ header{
     }
 }
 
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 505px){
 
 #hmobile{
     display: none;
