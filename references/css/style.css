@@ -1,0 +1,431 @@
+html{
+    font-size: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(87, 85, 85);
+    width: 1280px;
+    box-sizing: border-box;
+    float: left;
+}
+body{
+    margin: 0;
+}
+
+header{
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    background-color: ivory;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/*Left side of header*/
+
+.logo {
+    height: 5.5rem;
+    margin-left: 3rem;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+.academy{
+    color: rgb(190, 188, 188)
+}
+
+.colmar, .academy {
+    float: left;
+    font-size: 2.25rem;
+    position: relative;
+    margin-top: 2.75rem;
+}
+
+/*Right side of header*/
+
+ .sign-in, .companies, .online, .campus{
+    float: right;
+    position: relative;
+    margin-left: 2rem;
+    font-size: 2.25rem;
+    margin-top:2.75rem;
+
+}
+
+.sign-in{
+    margin-right: 3rem;
+}
+
+/*First Quarter*/
+
+.first-q{
+    top: 0;
+    width: 100%;
+    background-color:rgb(190, 188, 188);
+    float: left;
+    clear: both;
+}
+
+.first-q img {
+    width:60%;
+    height: auto;
+    margin: 8rem 3rem 4rem 3rem;
+    padding-top: 4rem;
+    float: left;
+}
+
+.first-q h1{
+    font-size: 5.5rem;
+    float: left;
+    margin: 28rem 3rem 3rem 3rem;
+}
+
+.first-q p{
+    font-size: 2.25rem;
+    float: left;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+
+.button{
+    width:20%;
+    background-color: rgb(87, 85, 85);
+    color: ivory;
+    float: left;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*Second Quarter*/
+
+.hurt {
+    width: 100%;
+    height: 25%;
+}
+/*Left*/
+
+.hurtl {
+    float: left;
+    width: 60%;
+}
+
+.hurtl img {
+    float: left;
+    width:100%;
+    height: auto;
+    padding: 4rem 1.5rem 4rem 3rem;
+    box-sizing: border-box;
+
+}
+
+.hurt h1 {
+    padding-left: 3rem;
+    font-size: 5.5rem;
+    float: left;
+}
+
+.curab {
+    font-size: 2.25rem;
+    font-weight: 300;
+    padding-left: 3rem;
+    color: rgb(87, 85, 85);
+    float: left;
+    
+}
+
+.eman{
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding-left: 3rem;
+    color: rgb(87, 85, 85);
+    float: left;
+    clear: both;
+}
+
+/*Right*/
+
+.hurtr {
+    width:39%;
+    float: right;
+    margin-top: 4rem;
+}
+.hurtr img {
+    width: 35%;
+    height: auto;
+    float: left;
+    padding: 2rem ;
+}
+
+.orient, .hcampus, .guest{
+    float: left;
+    border: 1px solid rgb(190, 188, 188);
+    width: 100%;
+    box-sizing: border-box;
+    height: 33%;
+}
+
+.guest{
+    background-color:rgb(190, 188, 188);
+}
+
+.hurtr h3{
+    font-size: 2.25rem;
+    padding: 5rem 1rem 1rem 1rem;
+}
+
+.hurtr h4 {
+    font-size: 2rem;
+    font-weight: 300;
+    
+}
+
+.hurtr h5{
+    color: rgb(85, 139, 255);
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 5rem;
+}
+
+/*Third Quarter*/
+
+.start {
+    float: left;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(190, 188, 188);
+    margin-top: 4rem;
+}
+
+.headstart{
+    text-align: center;
+    font-size: 5.5rem;
+}
+
+#grid{
+    float: left;
+    margin: 4rem 9rem 4rem 9rem;
+}
+
+.sweng, .compart, .design, .data, .business, .mkt{
+    width: 31%;
+    height: 50rem;
+    float: left;
+    box-sizing: border-box;
+    background-color: ivory;
+}
+
+.data, .business, .mkt{
+    margin-top: 4rem;
+}
+
+.compart, .business{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#grid img{
+    width: 100%;
+    height: auto;
+    
+}
+
+#grid h3{
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+
+}
+#grid h4, #grid p{
+    font-size: 2rem;
+    font-weight: 300;  
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color: rgb(87, 85, 85);
+}
+
+
+/*Fourth Quarter*/
+
+/*Left*/
+
+.thesis {
+    float: left;
+    height: 25%;
+    width: 100%;
+    background-color: ivory;
+}
+
+.thesisl{
+    float: left;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 4rem 3rem 3rem 3rem;
+}
+
+.ttitle{
+    font-size: 5.5rem;
+    text-align: center;
+    width: 100%;
+    height: 5.5rem;
+}
+
+.thesisvid {
+    width: 100%;
+    float: left;
+    
+}
+
+.thesisl h3{
+    font-size: 3rem;
+    float: left;
+    clear: both;
+    padding-left: 3rem;
+}
+
+.thesisl p{
+    float: left;
+    font-size: 2.25rem;
+    font-weight: 300;
+    padding-left: 3rem;
+    color: rgb(87, 85, 85);
+    clear: both;
+    padding: 1rem 0rem 4rem 3rem;
+}
+
+/*Right*/
+
+.thesisr{
+    width: 35%;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 4rem;
+
+}
+
+.fisma, .nowandthen{
+    float: left;
+    height: 33%;
+    width: 100%;
+}
+
+.fisma{
+    background-color: rgb(190, 188, 188) ;
+}
+
+.thesisr img{
+    width: 35%;
+    height: auto;
+    margin: 2rem; 
+    float: left;  
+}
+
+.nowandthen h2, .fisma h2{
+    float: left;
+    font-size: 2.25rem;
+    padding-left: 1rem;
+    margin-top: 6rem;
+}
+
+.nowandthen p, .fisma p{
+    float: left;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    margin-top: 0.2rem;
+    color: rgb(87, 85, 85);
+}
+/*Footer*/
+
+.l {
+    float: left;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: rgb(87, 85, 85);
+}
+
+.privacy, .terms{
+    float: right;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(87, 85, 85);
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 63rem){
+
+    .body{
+        max-width:63rem;
+
+    }
+    
+    /*header mobile*/
+
+    .header {
+        display: none;
+    }
+
+    #hmobile{
+        width:63rem;
+    }
+
+    #hmobile img{
+        width: 24%;
+        height: 8rem;
+    }
+    
+    /*first quarter mobile*/
+
+    .first-q {
+        width:63rem;;
+    }
+
+    .first-q img{
+        max-width: 101%;
+        width: 63rem;
+        height: 40rem;
+        margin: 0;
+    }
+
+    .first-q h1{
+        font-size: 5.5rem;
+        float: left;
+        margin: 4rem 3rem 2rem 2rem;
+        clear: both;
+    }
+    
+    .first-q p{
+        font-size: 2.25rem;
+        float: left;
+        margin: 2rem 3rem 1.5rem 2rem;
+        clear: both;
+    }
+    
+    
+    .button{
+        max-width:100%;
+        min-width: 90%;
+        background-color: rgb(87, 85, 85);
+        color: ivory;
+        float: left;
+        clear: both;
+        text-align: center;
+        font-size: 1.75rem;
+        margin: 1.5rem 3rem 3rem 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 650px){
+
+#hmobile{
+    display: none;
+}
