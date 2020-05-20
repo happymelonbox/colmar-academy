@@ -478,7 +478,6 @@ header{
     .start{
         background-color: ivory;
         width: 39%;
-        height: fit-content;
         float: left;
         clear: both;
         margin: 0
@@ -508,8 +507,60 @@ header{
         padding-bottom: 3rem;
         margin-bottom: 1rem;
         margin-right: 2rem;
-        
     }
+
+    .mmkt{
+        margin-bottom: 4rem;
+    }
+
+    /*Fourth Quarter*/
+
+    .thesisr{
+        display: none;
+    }
+
+    .thesis{
+        width: 39%;
+        float: left;
+        clear: both;
+        margin: 0;
+    }
+
+    .thesisl{
+        margin: 0;
+        width: 100%;
+    }
+
+    .thesisl h3, .thesisl p{
+        display: none;
+    }
+
+    .ttitle{
+        font-size: 5.5rem;
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .thesisvid{
+        width: 100%;
+        margin-bottom: 3rem;
+        margin: 2rem 0 3rem 0
+    }
+
+    /*Footer*/
+
+    footer{
+        width: 39%;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .privacy, .terms{
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 505px){
