@@ -473,6 +473,43 @@ header{
         margin-bottom: 3rem;
     }
 
+    /*Third Quarter Mobile*/
+
+    .start{
+        background-color: ivory;
+        width: 39%;
+        height: fit-content;
+        float: left;
+        clear: both;
+        margin: 0
+    }
+    #grid{
+        display: none;
+    }
+
+    .headstart{
+        font-size: 5.5rem;
+    }
+
+    .mobilestart{
+        font-size: 4rem;
+        font-weight: 400;
+        box-sizing: border-box;
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .msweng, .mcompart, .mdesign, .mdata, .mbusiness, .mmkt{
+        background-color: rgb(190, 188, 188);
+        text-align: left;
+        margin-left: 2rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 3rem;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        
+    }
 }
 
 @media only screen and (min-width: 505px){
